@@ -1,0 +1,12 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "Create cool heroes with simple way",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/main.scss:dist/bundle.css"
+  },
+  "keywords": [],
+  "author": "Muhibbudin Suretno <muhibbudinsuretno1@gmail.com>",
+  "license": "MIT"
+}
