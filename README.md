@@ -1,2 +1,2 @@
-# mockingup
-Mock up your application like OSX browser style
+# Heroes
+Create cool heroes with simple way
