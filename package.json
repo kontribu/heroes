@@ -1,0 +1,14 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "Heroes generator for your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name <you@example.com> (http://yourblog.com)",
+  "license": "MIT",
+  "dependencies": {
+    "vibrant": "0.0.1"
+  }
+}
