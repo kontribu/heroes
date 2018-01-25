@@ -4,8 +4,7 @@
   "description": "Create cool heroes with simple way",
   "main": "index.js",
   "scripts": {
-    "start": "sass --watch src/main.scss:dist/heroes.css",
-    "build": "sass src/main.scss:dist/heroes.min.css --style compressed"
+    "start": "sass --watch src/main.scss:dist/bundle.css"
   },
   "keywords": [],
   "author": "Muhibbudin Suretno <muhibbudinsuretno1@gmail.com>",

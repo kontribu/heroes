@@ -15,16 +15,5 @@
       max-width: 60%;
       font-family: 'Helvetica Neue', sans-serif;
     }
-    &-title {
-      font-size: 3rem;
-      font-weight: 300;
-      margin-bottom: 1rem;
-      color: $white;
-    }
-    &-description {
-      font-size: 1.1rem;
-      font-weight: 300;
-      color: darken($white, 10%);
-    }
   }
 }

@@ -1,3 +1,32 @@
+.hr-link {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 3rem;
+  color: #396afc;
+  background-color: #ffffff;
+  white-space: nowrap;
+  height: 4.4rem;
+  font-size: 1.3rem;
+  padding: 0.3rem 4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 3.8rem;
+  letter-spacing: 0.1rem; }
+  .hr-link:focus, .hr-link:hover {
+    border-color: #396afc;
+    background-color: #396afc;
+    outline: 0;
+    color: #ffffff; }
+  .hr-link-outline {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent; }
+    .hr-link-outline:focus, .hr-link-outline:hover {
+      color: #396afc;
+      border-color: #ffffff;
+      background-color: #ffffff; }
+
 .hr-clean .hr-background:after {
   content: '';
   position: absolute;
@@ -9,15 +38,6 @@
 .hr-clean .hr-content {
   max-width: 60%;
   font-family: 'Helvetica Neue', sans-serif; }
-.hr-clean .hr-title {
-  font-size: 3rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  color: #ffffff; }
-.hr-clean .hr-description {
-  font-size: 1.1rem;
-  font-weight: 300;
-  color: #e6e6e6; }
 
 .hr-gradient .hr-background:after {
   content: '';
@@ -35,15 +55,6 @@
 .hr-gradient .hr-content {
   max-width: 60%;
   font-family: 'Helvetica Neue', sans-serif; }
-.hr-gradient .hr-title {
-  font-size: 3rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  color: #ffffff; }
-.hr-gradient .hr-description {
-  font-size: 1.1rem;
-  font-weight: 300;
-  color: #e6e6e6; }
 
 .hr {
   width: 100%;
@@ -65,9 +76,31 @@
     .hr-background img {
       width: 100%;
       height: 100%; }
+  .hr-left {
+    justify-content: flex-start; }
+  .hr-right {
+    justify-content: flex-end; }
+  .hr-left > .hr-content {
+    max-width: 80%;
+    padding: 0 10%;
+    text-align: left; }
+  .hr-right > .hr-content {
+    max-width: 80%;
+    padding: 0 10%;
+    text-align: right; }
   .hr-content {
     z-index: 10;
     max-width: 80%;
     text-align: center; }
+  .hr-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #ffffff; }
+  .hr-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e6e6e6;
+    margin-bottom: 1rem; }
 
-/*# sourceMappingURL=heroes.css.map */
+/*# sourceMappingURL=bundle.css.map */
