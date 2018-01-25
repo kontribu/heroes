@@ -1,0 +1,30 @@
+.hr-gradient {
+  .hr {
+    &-background:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $color-1;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, $color-2, $color-1);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, $color-2, $color-1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    }
+    &-content {
+      max-width: 60%;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    &-title {
+      font-size: 3rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      color: $white;
+    }
+    &-description {
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: darken($white, 10%);
+    }
+  }
+}
